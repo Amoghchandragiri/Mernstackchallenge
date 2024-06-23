@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "85ae2b06-7205-4fca-9b9d-6b5011b2ec71",
+		"name": "mern-stack-challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31788331"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/initialize",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/initialize",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"initialize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/statistics?month=January",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/statistics?month=January",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"statistics"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "January"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/bar-chart?month=January",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/bar-chart?month=January",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"bar-chart"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "January"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/pie-chart?month=January",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/pie-chart?month=January",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"pie-chart"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "January"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
